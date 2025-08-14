@@ -85,4 +85,5 @@ config/api_keys.yaml
 # Credentials and Tokens
 credentials.json
 data/token.json
+data/token.pickle
 token.json
