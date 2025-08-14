@@ -1,0 +1,77 @@
+# CryptoBot MVP Configuration
+
+# 실행 모드 설정
+run_mode:
+  mode: backtest # 'backtest' 또는 'live'
+
+exchange:
+  name: okx
+  trade_mode: demo # 'demo' 또는 'real'
+  # 보안을 위해 API 키는 환경변수 또는 아래에 직접 설정할 수 있습니다.
+  # (주의: 코드에 직접 키를 저장하는 것은 권장되지 않습니다.)
+  trade_type : 3 
+  # 1 : USDT-Margined
+  # 2 : USDC-Margined
+  # 3 : Crypto-Margined
+  
+  api_key: ""
+  secret_key: ""
+  passphrase: ""
+  sandbox: true
+
+trading:
+  symbol: "BTC/USD:BTC"  # 거래 심볼
+  position_size: 0.01  # BTC 수량 ( margin * leverage )
+  leverage: 5  # 레버리지
+  stop_loss_pct: 1  # 100% 손절 (사실상 비활성화)
+  take_profit_pct: 0.02  # 2% 익절
+  order_cancel_timeout: 3600 # 미체결 지정가 주문 자동 취소 시간 (초), 예: 3600 = 1시간
+
+# 포지션 세트 설정
+position_set:
+  # ... 기본 설정 ...
+  position_set_size: 10   # 포지션 세트 크기 (개별 거래 수)
+  max_long_set: 3
+  max_short_set: 2
+  
+  # 고급 설정 (선택사항)
+  # min_profit_for_close: 0.01  # 최소 1% 수익 시에만 청산
+  # time_limit_hours: 72  # 72시간 후 강제 청산
+  # emergency_close_loss: -0.10  # -10% 손실 시 긴급 청산
+
+# 백테스트 설정
+backtest:
+  # 거래 기간 설정
+  trading_period:
+    # 시작/종료 날짜로 지정 (hours보다 우선)
+    start_date: "2025-01-01 00:00:00"  
+    end_date: "2025-02-01 00:00:00"    
+  
+  # 리포트 설정
+  report:
+    output_dir: "logs"  # 리포트 출력 디렉토리
+  
+  # 초기 설정
+  initial_balance: 0.5 # 초기 자본 (BTC)
+  
+  # 수수료 설정 (OKX VIP1 기준)
+  fees:
+    commission: 0.0001  # 거래 수수료 0.01%
+    funding_rate: 0.0001  # 펀딩피 0.01%
+
+database:
+  path: "data/cryptobot.db"  # SQLite 데이터베이스 경로
+
+logging:
+  level: "INFO"  # 로그 레벨 (DEBUG, INFO, WARNING, ERROR)
+  file: "logs/cryptobot.log"  # 로그 파일 경로
+
+system:
+  update_interval: 1  # 데이터 업데이트 간격 (초)
+  max_retries: 3  # 최대 재시도 횟수
+
+strategy:
+  simple_ma:
+    short_period: 24  # 단기 이동평균 기간
+    long_period: 720   # 장기 이동평균 기간
+    min_confidence: 0.7  # 최소 신뢰도

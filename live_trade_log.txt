@@ -1,0 +1,1798 @@
+2025-08-14 09:37:14 - src.exchange - INFO - OKX API 연결 초기화 완료 (데모 모드: True)
+2025-08-14 09:37:14 - src.exchange - INFO - OKX 거래용 거래소 초기화 완료 (데모 모드: True, Dry Run: False)
+2025-08-14 09:37:14 - src.exchange - INFO - OKX에서 상품 정보 로드를 시작합니다...
+2025-08-14 09:37:14 - src.exchange - INFO - 총 182개의 선물/스왑 상품 정보를 로드했습니다.
+2025-08-14 09:37:14 - src.strategy - INFO - SMA 전략 파라미터 로드: short=24, long=720
+2025-08-14 09:37:14 - src.strategy - INFO - TP/SL 파라미터 로드: take_profit=0.0%, stop_loss=0.0%
+2025-08-14 09:37:14 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 09:37:14 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 09:37:14 - root - INFO - AccountManager 초기화 중...
+2025-08-14 09:37:14 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 09:37:14 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 09:37:14 - src.account_manager - INFO - AccountManager 초기화 완료
+2025-08-14 09:37:14 - src.account_manager - INFO - AccountManager 시작
+2025-08-14 09:37:14 - src.account_manager - INFO - 상태 파일에서 복원 완료 (동기화 횟수: 269)
+2025-08-14 09:37:14 - src.account_manager - INFO - 초기 계좌 상태 동기화 시작
+2025-08-14 09:37:14 - src.account_manager - INFO - ... (1/3) 거래소 잔고 정보 동기화 시도...
+2025-08-14 09:37:15 - src.account_manager - INFO - ... (1/3) 거래소 잔고 정보 동기화 완료.
+2025-08-14 09:37:15 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:37:15 - src.account_manager - INFO - ... (2/3) 미체결 주문 정보 동기화 시도...
+2025-08-14 09:37:15 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:37:16 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:37:16 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:37:16 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:37:16 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:37:16 - src.account_manager - INFO - ... (2/3) 미체결 주문 정보 동기화 완료.
+2025-08-14 09:37:16 - src.account_manager - INFO - ... (3/3) 거래소 포지션 정보 동기화 시도...
+2025-08-14 09:37:16 - src.exchange - INFO - 거래소에서 BTC/USD:BTC 포지션 정보 조회 시도
+2025-08-14 09:37:16 - src.exchange - INFO - 'BTC/USD:BTC'에 대한 포지션 정보 조회 완료: 0개
+2025-08-14 09:37:16 - src.account_manager - INFO - ... (3/3) 거래소 포지션 정보 동기화 완료.
+2025-08-14 09:37:16 - src.account_manager - INFO - 거래소 포지션과 내부 상태 조정 시작
+2025-08-14 09:37:16 - src.account_manager - INFO - 포지션 조정 완료. 포지션 셋 조정을 시작합니다.
+2025-08-14 09:37:16 - src.account_manager - INFO - 내부 포지션 셋 조정을 시작합니다.
+2025-08-14 09:37:16 - src.account_manager - INFO - 포지션 및 포지션 셋 조정 완료.
+2025-08-14 09:37:16 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:37:16 - src.account_manager - INFO - 초기 동기화 성공
+2025-08-14 09:37:16 - src.account_manager - INFO - 주기적 동기화 시작 (간격: 60초)
+2025-08-14 09:37:16 - src.account_manager - INFO - AccountManager가 성공적으로 시작되었습니다.
+2025-08-14 09:37:16 - root - INFO - AccountManager 초기화 완료
+2025-08-14 09:37:16 - root - INFO - TradingManager 초기화 중...
+2025-08-14 09:37:16 - src.trading_manager - INFO - PositionSet 설정 - 크기 임계값: 10, 최대 롱 세트: 3, 최대 숏 세트: 2
+2025-08-14 09:37:16 - src.trading_manager - INFO - AccountManager로부터 거래 상태를 복원합니다.
+2025-08-14 09:37:16 - src.trading_manager - INFO - 거래 상태 복원 완료.
+2025-08-14 09:37:16 - src.trading_manager - INFO - 기존 포지션에 대한 초기 익절 주문 배치를 시작합니다.
+2025-08-14 09:37:16 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:37:16 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:37:16 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:37:16 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:37:16 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:37:16 - src.trading_manager - INFO - 현재 미체결 주문 0건을 확인합니다.
+2025-08-14 09:37:16 - root - INFO - TradingManager 초기화 완료
+2025-08-14 09:37:16 - root - INFO - Private WebSocket 스트림 시작됨.
+2025-08-14 09:37:16 - root - INFO - 전략에 필요한 과거 데이터 720개를 수집합니다.
+2025-08-14 09:37:16 - src.exchange - INFO - OKX 데이터 수집 시작: BTC/USD:BTC 1h (요청 개수: 720)
+2025-08-14 09:37:16 - src.exchange - INFO - 'since'가 지정되지 않아, 시작 시간을 2025-07-15T00:37:16.697Z로 계산합니다.
+2025-08-14 09:37:16 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:37:16 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:37:16 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:37:17 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:37:17 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:37:17 - src.exchange - INFO - BTC/USD:BTC OHLCV 데이터 720개 행을 최종적으로 반환합니다.
+2025-08-14 09:37:17 - src.exchange - INFO -    - 기간: 2025-07-15 01:00:00+00:00 ~ 2025-08-14 00:00:00+00:00
+2025-08-14 09:37:17 - src.trading_manager - INFO - TradingManager가 720개의 과거 데이터로 초기화되었습니다.
+2025-08-14 09:37:17 - root - INFO - 거래 설정 적용: 심볼=BTC/USD:BTC, 레버리지=5x
+2025-08-14 09:37:17 - src.exchange - INFO - Symbol: BTC/USD:BTC에 대한 레버리지를 5x로 설정했습니다.
+2025-08-14 09:37:17 - root - INFO - 실시간 거래 준비 완료. 메인 루프를 시작합니다.
+2025-08-14 09:37:17 - root - INFO - LiveDataFetcher 초기화. URL: wss://wspap.okx.com:8443/ws/v5/business
+2025-08-14 09:37:17 - root - INFO - 실시간 데이터 수신 스레드를 시작합니다.
+2025-08-14 09:37:17 - src.exchange - INFO - 'BTC/USD:BTC'의 '1h' 캔들 데이터 스트림 구독을 시작합니다 (자체 WebSocket 구현).
+2025-08-14 09:37:18 - root - INFO - 'candle1H' 채널 구독 요청: BTC-USD-SWAP
+2025-08-14 09:37:19 - src.exchange - INFO - Private WebSocket에 연결되었습니다.
+2025-08-14 09:37:19 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1677ms
+2025-08-14 09:37:20 - src.exchange - INFO - WebSocket 로그인 성공.
+2025-08-14 09:37:21 - src.exchange - INFO - 채널 구독 성공: {'channel': 'account'}
+2025-08-14 09:37:21 - src.exchange - INFO - 채널 구독 성공: {'channel': 'orders', 'instType': 'SWAP'}
+2025-08-14 09:37:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:22 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:27 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:32 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:37 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:42 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:47 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:37:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:17 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:18 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:38:18 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:38:18 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:38:18 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:38:18 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:38:19 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:38:19 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:38:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:22 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:27 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:32 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:37 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:42 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:38:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:17 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:20 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:39:20 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:39:20 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:39:20 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:39:20 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:39:21 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:39:21 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:39:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:27 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:32 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:39:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:07 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:12 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:17 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:22 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:40:22 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:40:22 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:23 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:40:23 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:40:23 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:40:23 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:40:23 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:40:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:57 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:40:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:02 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:07 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:12 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:17 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:25 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:41:25 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:41:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:25 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:41:25 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:41:25 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:41:26 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:41:26 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:41:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:52 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:57 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:41:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:02 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:21 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1671ms
+2025-08-14 09:42:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:27 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:42:27 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:42:27 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:42:27 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:42:27 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:42:28 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:42:28 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:42:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:42 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:47 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:52 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:57 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:42:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:02 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:29 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:43:29 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:43:29 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:43:29 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:43:29 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:43:30 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:43:30 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:43:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:42 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:47 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:52 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:43:57 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:31 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:44:31 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:44:31 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:44:31 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:44:31 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:44:32 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:44:32 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:44:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:42 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:47 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:44:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:33 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:45:33 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:45:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:33 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:45:34 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:45:34 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:45:34 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:45:34 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:45:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:37 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:45:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:35 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:46:35 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:46:36 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:46:36 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:46:36 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:46:36 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:46:37 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:46:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:46:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:22 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1683ms
+2025-08-14 09:47:22 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:27 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:38 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:47:38 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:47:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:38 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:47:38 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:47:38 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:47:39 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:47:39 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:47:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:47:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:22 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:40 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:48:40 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:48:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:40 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:48:40 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:48:40 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:48:41 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:48:41 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:48:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:48:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:42 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:49:42 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:49:42 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:49:42 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:49:42 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:49:43 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:49:43 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:49:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:49:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:44 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:50:44 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:50:44 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:50:44 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:50:44 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:50:45 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:50:45 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:50:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:50:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:46 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:51:46 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:51:46 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:51:46 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:51:46 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:51:47 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:51:47 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:51:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:51:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:24 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1669ms
+2025-08-14 09:52:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:48 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:52:48 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:52:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:48 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:52:48 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:52:48 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:52:49 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:52:49 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:52:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:52:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:50 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:53:50 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:53:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:50 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:53:51 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:53:51 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:53:51 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:53:51 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:53:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:53:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:52 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:54:52 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:54:53 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:54:53 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:54:53 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:54:53 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:54:54 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:54:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:54:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:55 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:55:55 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:55:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:55:55 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:55:55 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:55:55 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:55:56 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:55:56 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:55:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:56:57 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:56:57 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:56:57 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:56:57 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:56:57 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:56:58 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:56:58 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:56:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:25 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1655ms
+2025-08-14 09:57:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:57:59 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:57:59 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:57:59 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:57:59 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:57:59 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:58:00 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:58:00 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:58:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:58:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:01 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 09:59:01 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 09:59:01 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 09:59:01 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 09:59:01 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 09:59:02 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 09:59:02 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 09:59:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 09:59:57 - root - INFO - 캔들 데이터 수신 : ['1755129600000', '123422', '126800', '121163.8', '123943.3', '3035169', '2446.7473', '303516900', '1']
+2025-08-14 09:59:57 - root - WARNING - 계산된 Latency가 음수입니다: -640ms. 시간 동기화 상태를 확인하세요.
+2025-08-14 09:59:57 - root - INFO - 새 캔들 수신. Latency: -640ms | Offset: -1655ms
+2025-08-14 09:59:57 - src.trading_manager - WARNING - 중복된 캔들 데이터 수신: 2025-08-14 09:00:00+09:00
+2025-08-14 09:59:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:03 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:00:03 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:00:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:04 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:00:04 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:00:04 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:00:04 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:00:05 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:00:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:00:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:06 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:01:06 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:01:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:06 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:01:06 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:01:06 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:01:07 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:01:07 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:01:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:01:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:08 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:02:08 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:02:08 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:02:08 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:02:08 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:02:09 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:02:09 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:02:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:27 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1673ms
+2025-08-14 10:02:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:02:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:10 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:03:10 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:03:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:10 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:03:10 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:03:10 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:03:11 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:03:11 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:03:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:33 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:43 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:48 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:03:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:12 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:04:12 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:04:12 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:04:12 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:04:12 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:04:13 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:04:13 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:04:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:38 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:04:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:14 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:05:14 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:05:14 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:05:14 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:05:14 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:05:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:15 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:05:15 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:05:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:28 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:05:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:16 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:06:16 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:06:16 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:06:17 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:06:17 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:06:17 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:06:17 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:06:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:23 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:37 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:06:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:13 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:18 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:07:18 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:07:18 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:19 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:07:19 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:07:19 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:07:19 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:07:19 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:07:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:29 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1695ms
+2025-08-14 10:07:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:07:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:21 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:08:21 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:08:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:21 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:08:21 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:08:21 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:08:22 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:08:22 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:08:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:08:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:03 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:08 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:23 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:09:23 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:09:23 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:09:23 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:09:23 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:09:24 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:09:24 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:09:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:09:58 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:25 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:10:25 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:10:25 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:10:25 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:10:25 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:10:26 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:10:26 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:10:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:53 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:10:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:02 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:27 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:11:27 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:11:27 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:11:27 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:11:27 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:11:28 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:11:28 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:11:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:11:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:29 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:12:29 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:12:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:29 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:12:29 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:12:29 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:12:30 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:12:30 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:12:30 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1877ms
+2025-08-14 10:12:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:12:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:31 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:13:31 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:13:31 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:13:32 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:13:32 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:13:32 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:13:32 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:13:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:13:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:34 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:14:34 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:14:34 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:14:34 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:14:34 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:14:35 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:14:35 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:14:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:47 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:14:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:36 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:15:36 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:15:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:36 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:15:36 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:15:36 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:15:37 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:15:37 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:15:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:15:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:38 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:16:38 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:16:38 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:16:38 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:16:38 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:16:39 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:16:39 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:16:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:16:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:32 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1676ms
+2025-08-14 10:17:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:40 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:17:40 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:17:40 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:17:40 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:17:40 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:17:41 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:17:41 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:17:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:17:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:12 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:32 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:42 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:18:42 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:18:42 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:18:42 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:18:42 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:18:43 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:18:43 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:18:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:18:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:44 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:19:44 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:19:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:44 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:19:45 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:19:45 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:19:45 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:19:45 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:19:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:19:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:46 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:20:46 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:20:47 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:20:47 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:20:47 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:20:47 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:20:48 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:20:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:20:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:49 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:21:49 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:21:49 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:21:49 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:21:49 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:21:50 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:21:50 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:21:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:21:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:33 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1672ms
+2025-08-14 10:22:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:51 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:22:51 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:22:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:51 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:22:51 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:22:51 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:22:52 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:22:52 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:22:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:22:57 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:17 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:32 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:53 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:23:53 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:23:53 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:23:53 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:23:53 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:23:54 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:23:54 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:23:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:23:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:55 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:24:55 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:24:55 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:24:55 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:24:55 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:24:56 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:24:56 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:24:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:24:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:14 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:17 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:22 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:25:57 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:25:57 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:25:57 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:25:57 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:25:57 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:25:58 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:25:58 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:26:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:09 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:17 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:59 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:26:59 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:26:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:26:59 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:27:00 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:27:00 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:27:00 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:27:00 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:27:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:04 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:07 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:12 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:22 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:35 - root - INFO - 시간 동기화 완료. 로컬-서버 시간 차이(Offset): -1657ms
+2025-08-14 10:27:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:42 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:54 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:27:59 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:01 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:28:01 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:28:02 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:28:02 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:28:02 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:28:02 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:02 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:28:03 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:28:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:07 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:35 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:49 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:28:57 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:02 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:04 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:29:04 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:29:04 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:29:04 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:29:04 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:29:05 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:29:05 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:29:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:39 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:41 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:44 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:47 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:52 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:29:57 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:06 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:30:06 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:30:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:06 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:30:06 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:30:06 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:30:07 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:30:07 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:30:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:25 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:30 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:36 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:42 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:46 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:47 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:52 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:30:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:06 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:08 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:31:08 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:31:08 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:31:08 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:31:08 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:31:09 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:31:09 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:31:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:20 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:24 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:26 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:29 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:31 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:34 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:37 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:40 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:42 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:45 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:47 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:50 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:51 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:55 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:31:56 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:00 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:01 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:05 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:07 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:10 - src.account_manager - INFO - 잔고 정보 업데이트 완료: 4개 통화
+2025-08-14 10:32:10 - src.account_manager - INFO - ...... fetch_open_orders 호출 시도...
+2025-08-14 10:32:10 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:10 - src.exchange - INFO - 일반 미체결 주문 0건을 조회했습니다.
+2025-08-14 10:32:10 - src.exchange - INFO - TP/SL 등 전략 주문 0건을 조회했습니다.
+2025-08-14 10:32:10 - src.exchange - INFO - 총 0건의 미체결 주문(일반 + 전략)을 반환합니다.
+2025-08-14 10:32:11 - src.account_manager - INFO - ...... fetch_open_orders 호출 완료.
+2025-08-14 10:32:11 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:32:11 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:15 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:16 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:19 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:21 - src.account_manager - INFO - BTC 잔고 업데이트: Total=1.00734735, Available=1.00734735, Used=0.00000000
+2025-08-14 10:32:24 - src.account_manager - INFO - 시그널 2 수신. 안전 종료를 시작합니다.
+2025-08-14 10:32:24 - src.account_manager - INFO - AccountManager 종료 시작
+2025-08-14 10:32:24 - src.account_manager - INFO - 주기적 동기화 중지 요청
+2025-08-14 10:32:25 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:32:25 - src.account_manager - INFO - AccountManager가 안전하게 종료되었습니다.
+2025-08-14 10:32:28 - src.account_manager - INFO - 시그널 2 수신. 안전 종료를 시작합니다.
+2025-08-14 10:32:28 - src.account_manager - INFO - AccountManager 종료 시작
+2025-08-14 10:32:28 - src.account_manager - INFO - 주기적 동기화 중지 요청
+2025-08-14 10:32:28 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:32:28 - src.account_manager - INFO - AccountManager가 안전하게 종료되었습니다.
+2025-08-14 10:32:28 - root - INFO - 프로그램 종료가 요청되었습니다. 안전하게 종료합니다...
+2025-08-14 10:32:28 - root - INFO - AccountManager 종료 중...
+2025-08-14 10:32:28 - src.account_manager - INFO - AccountManager 종료 시작
+2025-08-14 10:32:28 - src.account_manager - INFO - 주기적 동기화 중지 요청
+2025-08-14 10:32:28 - src.account_manager - INFO - 상태 파일 저장 완료
+2025-08-14 10:32:28 - src.account_manager - INFO - AccountManager가 안전하게 종료되었습니다.
+2025-08-14 10:32:28 - root - INFO - 프로그램이 성공적으로 종료되었습니다.
