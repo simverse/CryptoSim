@@ -110,19 +110,25 @@ class ConfigManager:
             'symbol': self.get('trading.symbol', 'BTC/USDT:USDT'),
             'position_size': self.get('trading.position_size', 0.01),
             'leverage': self.get('trading.leverage', 1),
+            'use_tp': self.get('trading.use_tp', True),
+            'use_sl': self.get('trading.use_sl', True),
             'stop_loss_pct': self.get('trading.stop_loss_pct', 0.02),
             'take_profit_pct': self.get('trading.take_profit_pct', 0.04)
         }
     
     def get_backtest_config(self) -> Dict[str, Any]:
         """백테스트 설정 조회"""
-        initial_balance_btc = self.get('backtest.initial_balance')
-        if initial_balance_btc is None:
+        initial_balance = self.get('backtest.initial_balance')
+        if initial_balance is None:
             raise ValueError("config.yaml에 'backtest.initial_balance' 설정이 없습니다.")
         
         return {
-            'initial_balance_btc': initial_balance_btc,
+            'initial_balance': initial_balance,
             'trading_period': self.get('backtest.trading_period', {'hours': 2000}),
             'fees': self.get('backtest.fees', {'commission': 0.0001, 'funding_rate': 0.0001}),
             'report': self.get('backtest.report', {'output_dir': 'logs'})
         }
+
+    def get_recorder_config(self) -> Dict[str, Any]:
+        """리코더 설정 조회"""
+        return self.get('backtest.report.recorder', {'excel': {'enabled': True}, 'google_sheet': {'enabled': False}})
